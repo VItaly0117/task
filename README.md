@@ -4,6 +4,14 @@ A CRUD API for managing travel projects and places, built with FastAPI, SQLModel
 
 ## Setup
 
+## Docker
+
+Alternatively, run with Docker:
+```bash
+docker compose up --build
+```
+The API will be available at `http://127.0.0.1:8000` and docs at `http://127.0.0.1:8000/docs`.
+
 1. Create a virtual environment and activate it:
 ```bash
 python3 -m venv venv
@@ -55,4 +63,3 @@ python3 -m uvicorn main:app --reload
 - Pagination and filtering for listing endpoints
 - Caching responses from the Art Institute API
 - Basic authentication
-- Docker setup
